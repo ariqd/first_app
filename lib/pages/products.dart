@@ -15,7 +15,7 @@ class ProductsPage extends StatelessWidget {
           children: <Widget>[
             AppBar(
               automaticallyImplyLeading: false,
-              title: Text('Choose'),
+              title: Text('John Doe'),
             ),
             ListTile(
               title: Text('Manage Products'),
@@ -27,7 +27,8 @@ class ProductsPage extends StatelessWidget {
         ),
       ),
       appBar: AppBar(
-        title: Text('EasyList'),
+        title: Text('Home'),
+        centerTitle: true,
       ),
       body: ProductManager(products),
     );
